@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     ages.push(age)
     names.push(name)
   end
-  names[find_index(ages.min)]
+  names[names.find_index(ages.min)]
 
 
 end
