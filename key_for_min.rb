@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   ages = []
   names = []
-  name_hash.each { |name, age| ages.push(age) names.push(name) }
+  name_hash.each { |name, age| ages.push(age); names.push(name) }
   names[find_index(ages.min)]
 
 
